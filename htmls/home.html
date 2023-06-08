@@ -149,7 +149,7 @@
                 formdata.append('files', files[i].file)
             }
 
-            fetch('/handle/', {
+            fetch('handle/', {
                     method: 'POST',
                     headers: {
                         'X-CSRFToken': "{{csrf_token}}"
